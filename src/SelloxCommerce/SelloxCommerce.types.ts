@@ -1,4 +1,5 @@
 // Generated with util/create-component.js
 export interface SelloxCommerceProps {
-    foo: string;
+  environment: any;
+  firebase: any;
 }

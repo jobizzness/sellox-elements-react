@@ -1,11 +1,16 @@
 // Generated with util/create-component.js
-import React from "react";
-import SelloxCommerce from "./SelloxCommerce";
+import React from 'react';
+import SelloxCommerce from './SelloxCommerce';
 
 export default {
-    title: "SelloxCommerce"
+  title: 'SelloxCommerce',
 };
 
-export const WithBar = () => <SelloxCommerce foo="bar" />;
+const config = {};
+export const AppContext = () => (
+  <SelloxCommerce config={config}>
+    {/* Many things can come here */}
+  </SelloxCommerce>
+);
 
-export const WithBaz = () => <SelloxCommerce foo="baz" />;
+// export const WithBaz = () => <SelloxCommerce foo="baz" />;
