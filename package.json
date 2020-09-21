@@ -1,6 +1,6 @@
 {
-  "name": "react-component-library",
-  "version": "1.0.0",
+  "name": "@sellox/sellox-elements-react",
+  "version": "0.0.1-development",
   "main": "build/index.js",
   "module": "build/index.esm.js",
   "files": [
@@ -65,5 +65,8 @@
     "sass-loader": "^8.0.0",
     "ts-jest": "^24.2.0",
     "typescript": "^3.7.2"
+  },
+  "dependencies": {
+    "@sellox/sellox-sdk": "^0.0.8-development"
   }
 }

@@ -1,3 +1,4 @@
-import TestComponent from "./TestComponent/TestComponent";
+import TestComponent from './TestComponent/TestComponent';
+import SelloxCommerce from './SelloxCommerce/SelloxCommerce';
 
-export { TestComponent };
+export { SelloxCommerce };
